@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Alinha no início da página verticalmente */
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+  margin: 0;
+}
+
+.Login {
+  max-width: 300px;
+  margin: 50px; /* Adiciona uma margem para ajustar a posição para baixo */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: black; /* Define a cor do texto para garantir contraste */
+  position: relative;
+  left: 0; /* Alinha à esquerda da página */
+}
